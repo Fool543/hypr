@@ -5,8 +5,10 @@ cd yay &&
 makepkg -si &&
 chmod +x aur.sh
 chmod +x pacman.sh
+chmod +x fonts.sh
 ./pacman.sh
 ./aur.sh
+./fonts.sh
 mv omf_l ~/.local/share/omf
 mv Pictures ~/
 cp .config/* ~/.config/ 
