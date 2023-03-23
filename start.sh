@@ -9,7 +9,7 @@ chmod +x fonts.sh
 ./pacman.sh
 ./aur.sh
 ./fonts.sh
-mv omf_l ~/.local/share/omf
+mv omf ~/.local/share/omf
 mv Pictures ~/
 cp .config/* ~/.config/ 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
