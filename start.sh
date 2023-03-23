@@ -12,6 +12,6 @@ chmod +x fonts.sh
 ./fonts.sh
 mv omf ~/.local/share/omf
 mv Pictures ~/
-cp .config/* ~/.config/ 
+cp -r .config/* ~/.config/ 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
