@@ -1,8 +1,9 @@
 sudo pacman -Syyu
-sudo pacman -S git 
+sudo pacman -S git --needed
 git clone https://aur.archlinux.org/yay.git &&
 cd yay &&
 makepkg -si &&
+cd ~/hypr/ 
 chmod +x aur.sh
 chmod +x pacman.sh
 chmod +x fonts.sh
