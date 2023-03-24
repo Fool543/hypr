@@ -13,9 +13,11 @@ chmod +x start.sh
 ./start.sh
 ```
 
+And then follow the shell and repond whenever it needs user intervention
+
 #### Note
 
-And then follow the shell and repond whenever it needs user intervention
+I have listed many additional things that you may have no need of like kernels, or add arcolinux repos . Just remove parts that you no need of from the various executable files . 
 
 # Post Install
 
