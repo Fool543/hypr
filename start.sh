@@ -1,3 +1,5 @@
+sudo rm /etc/pacman.conf
+sudo cp pacman.conf /etc/pacman.conf
 sudo pacman -Syyu
 git clone https://aur.archlinux.org/yay.git &&
 cd yay &&
@@ -9,8 +11,8 @@ chmod +x fonts.sh
 ./pacman.sh
 ./aur.sh
 ./fonts.sh
-mv omf ~/.local/share/omf
 mv Pictures ~/
 cp -r .config/* ~/.config/ 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-
+omf install zish
+omf theme zish
