@@ -17,5 +17,5 @@ And then follow the shell and repond whenever it needs user intervention
 
 ### Post Install
 
-** Start lxappearance and change theme and font.
-** Start gtk settings(or xfce4-settings) and change theme and font.
+**** Start lxappearance and change theme and font.
+**** Start gtk settings(or xfce4-settings) and change theme and font.
