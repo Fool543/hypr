@@ -2,12 +2,15 @@
 Hyprland dotfiles
 
 # Installation
-Git clone it by 
+
+'''sh
+# Git clone it first 
 git clone https://github.com/Fool543/hypr.git
-Then execute the following
+# Then execute the following
 cd hypr
 chmod +x start.sh
 ./start.sh
+'''
 
 And then follow the shell and repond whenever it needs user intervention
 
