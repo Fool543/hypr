@@ -13,6 +13,8 @@ chmod +x start.sh
 ./start.sh
 ```
 
+#### Note
+
 And then follow the shell and repond whenever it needs user intervention
 
 # Post Install
