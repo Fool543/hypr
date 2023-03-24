@@ -1,4 +1,5 @@
 sudo rm /etc/pacman.conf
+sudo cp -r pacman.d/* /etc/pacman.d/
 sudo cp pacman.conf /etc/pacman.conf
 sudo pacman -Syyu
 git clone https://aur.archlinux.org/yay.git &&
